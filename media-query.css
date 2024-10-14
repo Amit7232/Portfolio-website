@@ -1,0 +1,113 @@
+@media only screen and (max-width: 479px) {
+ 
+    /* nav section media query for the phone start */
+
+  .name {
+    font-size: 3.2rem;
+    margin-left: -10px;
+  }
+
+  .navbar ul .hide-logo{
+    display: flex;
+  }
+  .hide{
+    display: none;
+  }
+
+  /* nav section media query for the phone end */
+
+  /* hero section media query for the phone start */
+  .hero-sec {
+    margin-top: 20px;
+    display: flex;
+    gap: 0rem;
+    margin-left: 5px;
+  }
+
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  .hero-main-text {
+    margin-top: -6rem;
+    font-size: 4rem;
+    width: 37rem;
+    line-height: 8rem;
+  }
+
+  .fullname {
+    margin-left: -15px;
+  }
+
+  .text2 {
+    margin-top: -3.5rem;
+    margin-left: -10px;
+    font-size: 3.8rem;
+  }
+  .text3 {
+    margin-top: -1rem;
+    margin-left: -10px;
+    font-size: 3rem;
+    line-height: 6rem;
+  }
+
+  .button {
+    width: 12rem;
+    height: 4rem;
+    border-radius: 2.5rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-top: -10px;
+  }
+
+  /* .hero-img img {
+    height: 49rem;
+    width: 37rem;
+    margin-top: -10px;
+  } */
+
+  /* hero section media query for the phone end */
+
+  /* about section media query for the phone start  */
+  .About2 {
+    /* box-sizing: border-box; */
+    padding-top: 6rem;
+    /* margin-bottom: 1.2rem; */
+    flex-direction: column;
+    margin-left: 5rem;
+    /* margin: auto; */
+   
+  }
+  .hero-sec{
+    flex-direction: column;
+  }
+
+  .about-me , .hero-text{
+    order: 0;
+    /* margin-left: 6px;
+    border: 2px solid black; */
+  }
+  .full-info,.hero-img{
+    order: 1;
+  }
+  .about-me-main-text {
+    font-size: 4rem;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  .about-me-text {
+    font-size: 2rem;
+    width: 100%;
+    text-align: justify;
+  }
+  .extra-info{
+   
+  }
+  .extra-info-lable p{
+    font-size: 1.9rem;
+  }
+  .extra-info-text p{
+    font-size: 1.8rem;
+  }
+}

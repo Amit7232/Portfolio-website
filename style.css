@@ -1,0 +1,768 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+html,body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Kanit", "Roboto Slab", serif;
+}
+*{
+  list-style: none;
+  text-decoration: none;
+}
+/* Nav Section Start */
+.navbar{
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: black;
+  width: 100%;
+}
+
+.fname {
+  color: white;
+}
+.lname {
+  color: rgb(253, 216, 6);
+}
+.navbar ul{
+  display: flex;
+  font-weight: 400;
+}
+.navbar ul li:first-child{
+  margin-right: auto;
+  font-size: 2rem;
+  font-family: "Kanit", "Roboto Slab", serif;
+  font-weight: bold;
+}
+.navbar ul li{
+  padding: .1rem 2rem;
+}
+.navbar ul .first{
+  padding-right: 5rem;
+}
+.navbar ul .hide-logo{
+  display: none;
+}
+.fa-bars:hover{
+  cursor: pointer;
+  color: rgb(255, 174, 0);
+}
+.nav-items:hover {
+  cursor: pointer;
+}
+.hide a ,.hide-logo a{
+  text-decoration: none;
+  color: white;
+}
+.hide a:hover {
+  color: rgb(255, 174, 0);
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+
+
+
+button a{
+  text-decoration: none;
+  color: black;
+}
+
+
+/* Nav Section End */
+
+/* Hero Section Start */
+.hero-sec {
+  display: flex;
+  gap: 15rem;
+  padding-top: 5rem;
+  padding-left: 4.5rem;
+}
+.hero-img img {
+  height: 35rem;
+  filter: saturate(1.5);
+}
+.hero-img img:hover {
+  filter: grayscale(1);
+}
+.hero-text {
+  margin-top: 2rem;
+}
+.hero-main-text {
+  font-size: 2.5rem;
+  display: inline-block;
+  width: 35rem;
+  letter-spacing: 1px;
+  margin-top: -2.5rem;
+}
+.hero-main-text div {
+  color: rgb(255, 196, 0);
+}
+.text1 {
+  color: rgb(255, 174, 0);
+  font-weight: bold;
+}
+
+.text2 {
+  font-size: 1.9rem;
+  font-weight: bolder;
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+
+.text3 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.button {
+  display: inline-block;
+  color: black;
+  background-color: rgb(255, 174, 0);
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: bolder;
+  font-size: 14px;
+  margin-top: 10px;
+  border: none;
+}
+.button:hover {
+  cursor: pointer;
+  color: rgb(12, 12, 12);
+  background-color: white;
+  font-weight: bolder;
+}
+/* Hero Section End */
+
+/* About Section Start  */
+.About {
+  padding-top: 6rem;
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 6rem;
+}
+.full-info{
+  width: 100%;
+}
+.my-info {
+  display: flex;
+  gap: 3rem;
+  margin-left: 5rem;
+  color: rgb(160, 157, 157);
+}
+
+.my-info-img {
+  height: 200px;
+  width: 200px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.my-info-text {
+  width: 18rem;
+  text-align: left;
+  padding-top: 1rem;
+}
+
+.skill-bar-container {
+  padding-left: 6rem;
+  margin-top: -1rem;
+}
+
+.skill {
+  padding-left: 6rem;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+.skill-bar {
+  width: 100%;
+  background-color: rgb(44, 43, 43);
+}
+
+.skills {
+  text-align: right;
+  color: rgb(48, 46, 46) ;
+  font-size: 0.5rem;
+  margin-top: -0.5rem;
+}
+.skill-color{
+  color:rgb(160, 157, 157);
+}
+
+.skill-font{
+  font-size: 0.9rem;
+}
+
+.html {
+  width: 90%;
+  background-color: rgb(255, 196, 0);
+}
+.css {
+  width: 70%;
+  background-color: rgb(255, 196, 0);
+}
+.js {
+  width: 80%;
+  background-color: rgb(255, 196, 0);
+}
+.github {
+  width: 85%;
+  background-color: rgb(255, 196, 0);
+}
+.react {
+  width: 80%;
+  background-color: rgb(255, 196, 0);
+}
+
+.about-me {
+  padding-right: 3rem;
+  text-align: left;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.about-me-main-text {
+  font-size: 50px;
+  margin-top: -10px;
+  text-align: center;
+  margin-bottom: -0.5rem;
+  
+}
+
+.about-me-text{
+  color: rgb(160, 157, 157) ;
+  font-size: 16px;
+  text-align: justify;
+}
+
+
+.extra-info {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 3.5rem;
+}
+
+.extra-info-lable p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.7rem;
+}
+
+.extra-info-text p {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  letter-spacing: 1px;
+  color:rgb(160, 157, 157);
+}
+
+/* About Section End */
+
+/* Resume Section Start */
+
+.Resume {
+  padding-top: 30px;
+}
+.Resume-heading {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+.Resume-paragraph {
+  max-width: 1100px;
+  margin-left: 120px;
+  line-height: 28px;
+  color: rgb(160, 157, 157) ;
+  font-size: 18px;
+  margin-top: -1rem;
+}
+.experience {
+  display: flex;
+  gap: 50px;
+}
+
+.experience-heading{
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+
+.underline {
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.underline::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(to right, gray, rgb(22, 21, 21), yellowgreen);
+  height: 8px;
+  width: 48%;
+  border-radius: 10px;
+}
+.experience-2018-2020 {
+  background-color: #1a1a1aa8;
+  border-radius: 10px;
+  margin-left: 90px;
+  margin-top: 40px;
+  padding: 20px;
+  max-width: 510px;
+}
+.experience-2021-2024 {
+  background-color: #1a1a1aa8;
+  border-radius: 10px;
+  margin-top: 40px;
+  padding: 20px;
+  max-width: 510px;
+}
+.year-1{
+  color:rgb(255, 196, 0);
+  font-size: 25px;
+  font-weight: 900;
+}
+.year-2{
+  color:rgb(255, 196, 0);
+  font-size: 25px;
+  font-weight: 900;
+}
+.post-1{
+  margin-top: -15px;
+  font-weight: 500;
+}
+.post-2{
+  margin-top: -15px;
+  font-weight: 500;
+}
+.company-1{
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(160, 157, 157);
+}
+.company-2{
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(160, 157, 157);
+}
+.pra-1{
+  color: rgb(160, 157, 157) ;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 25px;
+}
+.pra-2{
+  color: rgb(160, 157, 157) ;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 25px;
+}
+.list-1{
+  line-height: 28px;
+  color: rgb(160, 157, 157) ;
+  font-size: 15px;
+}
+.list-2{
+  line-height: 28px;
+  color: rgb(160, 157, 157) ;
+  font-size: 15px;
+}
+
+/* Education */
+
+.education{
+  margin-top: 50px;
+}
+
+.education-heading{
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+
+.education-parts{
+  display: flex;
+  gap: 50px;
+}
+
+.schooling{
+  background-color: #1a1a1aa8;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 120px;
+  padding: 20px;
+  width: 480px;
+}
+.college{
+  background-color: #1a1a1aa8;
+  border-radius: 10px;
+  margin-top: 40px;
+  padding: 20px;
+  width: 480px;
+}
+
+.pra-3{
+  color:rgb(255, 196, 0);
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.pra-4{
+  color:rgb(255, 196, 0);
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.course-name{
+  margin-top: -15px;
+  font-weight: 400;
+}
+
+.school-name{
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(160, 157, 157);
+}
+
+.college-name{
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(160, 157, 157);
+}
+
+.grade{
+  color: rgb(160, 157, 157) ;
+  font-size: 16px;
+  margin-top: 25px;
+  line-height: 25px;
+}
+
+.cv-download{
+  margin-top: 50px;
+  margin-left: 580px;
+  display: inline-block;
+  color: black;
+  background-color: rgb(255, 174, 0);
+  width: 170px;
+  height: 50px;
+  border-radius: 30px;
+  font-weight: bolder;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: "Kanit", sans-serif;
+  border: none;
+}
+
+.cv-download:hover{
+  cursor: pointer;
+  color: rgb(12, 12, 12);
+  background-color: white;
+  font-weight: bolder;
+}
+
+
+/* project section start */
+
+.project-main-heading{
+  padding-top: 80px;
+  text-align: center;
+  letter-spacing: 2PX;
+  font-size: 50px;
+}
+
+.after-heading-text{
+  text-align: center;
+  font-size: 19PX;
+  color:rgb(160, 157, 157);
+}
+.project-details{
+  display: flex;
+  gap: 20px;
+}
+
+.img-one{
+  border: 4px solid rgb(36, 35, 35);
+}
+
+.img-of-project{
+  height: 200px;
+  width: 350px;
+  object-fit: fill;
+  box-sizing: border-box;
+  box-shadow: rgba(205, 250, 4, 0.418) 0px 5px 15px;
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+.img-of-project:hover{
+  animation: zoomInOut 1s ease-out;
+}
+
+@keyframes zoomInOut {
+  100%{
+    transform: scale(1.1); /* Zoom out */
+  }
+     
+
+}
+
+.project-text{
+  margin-left: 65px;
+  margin-top: 20px;
+  max-width: 350px;
+  font-size: 17px;
+}
+
+.project1-details{
+  max-width: 350px;
+  margin-left: 65px;
+  text-align: left;
+  color: rgb(160, 157, 157) ;
+}
+
+/* img section start */
+.Projects-img-section{
+  margin-top: 100px;
+  background-image: url("imges/project-section-img.jpg");
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+
+.no-of-details{
+  position: relative;
+  top: -50px;
+  color: antiquewhite;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.detail-1{
+  background-color: rgb(36, 35, 35);
+  border-radius: 2px;
+  width: 220px;
+  text-align: center;
+}
+.detail-2{
+  background-color: rgb(36, 35, 35);
+  border-radius: 2px;
+  width: 220px;
+  text-align: center;
+}
+.detail-3{
+  background-color: rgb(36, 35, 35);
+  border-radius: 2px;
+  width: 220px;
+  text-align: center;
+}
+.detail-4{
+  background-color: rgb(36, 35, 35);
+  border-radius: 2px;
+  width: 220px;
+  height: 120px;
+  text-align: center;
+}
+
+.detail-no{
+  color:rgb(255, 196, 0);
+  font-size:25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.detail-text{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.img-center-text{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.img-center-text span{
+  color:rgb(255, 196, 0) ;
+}
+
+.more-text-on-img{
+  text-align: center;
+  margin-top: -25px;
+  font-size: 22px;
+  font-weight: 300;
+}
+.git-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.github-btn{
+  text-align: center;
+  background-color:rgb(255, 196, 0);
+  color: black;
+  height: 40px;
+  font-weight: 700;
+  font-size: 15px;
+  width: 110px;
+  border-radius: 20px;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.github-btn:hover{
+  background-color: white;
+  color: black;
+}
+
+/* contact section start */
+
+.contact-main-heading{
+  padding-top: 80px;
+  margin-top: 500px;
+  text-align: center;
+  letter-spacing: 2PX;
+  font-size: 50px;
+}
+
+.contact-text{
+  text-align: center;
+  margin-top: -20px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: rgb(160, 157, 157);
+}
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  color:rgb(236, 236, 232);
+  margin-top: 40px;
+  
+}
+
+.gap{
+  background-color: rgba(42, 42, 43, 0.651);
+  border-radius: 80%;
+  height: 60px;
+  width: 60px;
+  padding-top: 30px;
+  padding-left: 30px;
+ 
+}
+
+.icon-text{
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 1px;
+}
+
+.text-1{
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.text-2{
+  margin-left: -5px;
+  margin-top: 30px;
+}
+.text-3{
+  margin-left: -40px;
+  margin-top: 35px;
+}
+.text-4{
+  margin-left: -10px;
+  margin-top: 30px;
+}
+
+.icon-info{
+  display: flex;
+  gap:180px;
+  margin-left: 85px;
+  font-weight: 200;
+}
+
+.address{  
+  margin-left: 10px;
+}
+.phone{  
+  margin-left: 30px;
+}
+.email{  
+  margin-left: 10px;
+}
+
+.payment{  
+   margin-left: -20px;
+}
+
+.question{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.Q-section{
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+.click-here{
+  display: inline-block;
+  height: 50px;
+  width: 150px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  border-radius: 30px;
+  border: none;
+  background-color:rgb(255, 196, 0) ;
+}
+
+.click-here:hover{
+  background-color: white;
+}
+
+.find-me{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.find-me-text{
+  color: gray;
+  font-size: 18px;
+}
+
+.find-me-icon{
+  margin-top: 15px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-bottom:50px ;
+}
+
+
+
+
+
